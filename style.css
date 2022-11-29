@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     background-color: hsl(30, 38%, 92%);
     height: 100vh;
@@ -12,5 +14,48 @@ body{
     border: 2px solid #fff;
     border-radius: 23px;
     background-color:hsl(0, 0%, 100%);
-    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0px;
+}
+img{
+    height:350px;
+    width: 250px;
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+}
+.product-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+}
+#product-name{
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: -1px;
+}
+#content{
+    margin:15px;
+}
+.price{
+    display: inline;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 206px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
