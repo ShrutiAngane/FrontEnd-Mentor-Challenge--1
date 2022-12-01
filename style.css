@@ -34,7 +34,7 @@ img{
 #product-name{
     font-family: 'Fraunces', serif;
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 1000;
     margin-top: -1px;
 }
 #content{
@@ -44,18 +44,44 @@ img{
     display: inline;
     margin-right: 10px;
     font-family: 'Montserrat', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: 600;
+}
+#actual-price{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    position: absolute;
 }
 #description{
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-top: -12px;
+}
+#perfume{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 11px;
     font-size: 12px;
 }
 button{
     display: block;
     margin-top: 10px;
-    height: 30px;
+    height: 42px;
     width: 206px;
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+    border:0.3px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    /* box-shadow: 10px 10px 10px 3px hsl(158, 36%, 37%); */
+}
+svg{
+    margin-right: 10px;
 }
