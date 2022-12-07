@@ -80,8 +80,38 @@ button{
 }
 button:hover{
     cursor: pointer;
+    background-color: #374B43;
     /* box-shadow: 10px 10px 10px 3px hsl(158, 36%, 37%); */
 }
 svg{
     margin-right: 10px;
+}
+@media only screen and (max-width:375px) {
+    .card{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: 1fr;
+        height: 530px;
+        width: 255px;
+    }
+    img{
+        height: 230px;
+        width: 256px;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 0px;
+    }
+    #content{
+        margin: 20px;
+    }
+    #perfume{ 
+        margin-top: -1px;
+    }
+    #product-name{
+        margin-top: -7px;
+    }
+    #description{
+        margin-top: -17px;
+    }
+    
 }
